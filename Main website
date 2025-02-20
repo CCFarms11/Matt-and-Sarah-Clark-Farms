@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Farm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            font-size: 1.5em;
+        }
+        section {
+            padding: 20px;
+        }
+        .product {
+            display: inline-block;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome to Our Farm</header>
+    
+    <section>
+        <h2>About Our Farm</h2>
+        <p>We are a family-run farm providing fresh, organic produce straight from our fields.</p>
+    </section>
+    
+    <section>
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Fresh Eggs</h3>
+            <p>Farm fresh eggs from happy chickens.</p>
+        </div>
+        <div class="product">
+            <h3>Freh Meat</h3>
+            <p>Locally grown pork, chicken and beef.</p>
+        </div>
+        <div class="product">
+            <h3>Farm Equipment</h3>
+            <p>Hay feeders, bale movers and automatic waterers.</p>
+        </div>
+    </section>
+</body>
+</html>
