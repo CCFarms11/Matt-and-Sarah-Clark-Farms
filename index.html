@@ -11,7 +11,9 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: white;
+            background-image: url('farm-background.jpg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
             color: black;
         }
         header {
@@ -23,6 +25,9 @@
         }
         section {
             padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* Light background for readability */
+            margin: 20px;
+            border-radius: 10px;
         }
         .product-container {
             display: flex;
@@ -41,6 +46,12 @@
         }
         h2 {
             color: #B22222;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -69,6 +80,14 @@
                 <p>Geo-Star automatic waterers</p>
             </div>
         </div>
+    </section>
+    
+    <section class="contact-info">
+        <h2>Contact Us</h2>
+        <p><strong>Matt Clark</strong></p>
+        <p>Owner</p>
+        <p>317.966.1519</p>
+        <p>Mooresville, IN</p>
     </section>
 </body>
 </html>
