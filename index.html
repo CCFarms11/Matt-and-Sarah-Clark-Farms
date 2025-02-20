@@ -11,22 +11,36 @@
             margin: 0;
             padding: 0;
             text-align: center;
+            background-color: white;
+            color: black;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #B22222; /* Dark Red */
             color: white;
             padding: 1em;
-            font-size: 1.5em;
+            font-size: 1.8em;
+            font-weight: bold;
         }
         section {
             padding: 20px;
         }
+        .product-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
         .product {
-            display: inline-block;
-            border: 1px solid #ddd;
-            margin: 10px;
-            padding: 10px;
-            width: 200px;
+            border: 2px solid #B22222; /* Red border */
+            background-color: white;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #B22222;
         }
     </style>
 </head>
@@ -40,19 +54,22 @@
     
     <section>
         <h2>Our Products</h2>
-        <div class="product">
-            <h3>Farm Products</h3>
-            <p>Eggs</p>
-            <p>Pork</p>
-            <p>Chicken</p>
-            <p>Beef</p>
-        </div>
-        <div class="product">
-            <h3>Farm Equipment</h3>
-            <p>Legacy Mfg hay feeders</p>
-            <p>Legacy Mfg hay wagons</p>
-            <p>Geo-Star automatic waterers</p>
+        <div class="product-container">
+            <div class="product">
+                <h3>Farm Products</h3>
+                <p>Eggs</p>
+                <p>Pork</p>
+                <p>Chicken</p>
+                <p>Beef</p>
+            </div>
+            <div class="product">
+                <h3>Farm Equipment</h3>
+                <p>Legacy Mfg hay feeders</p>
+                <p>Legacy Mfg hay wagons</p>
+                <p>Geo-Star automatic waterers</p>
+            </div>
         </div>
     </section>
 </body>
 </html>
+
