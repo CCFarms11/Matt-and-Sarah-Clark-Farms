@@ -7,38 +7,64 @@
     <title>Matt and Sarah Clark Farms - Hay Feeders, Hay Wagons, Livestock Waterers</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Matt and Sarah Clark Farms offers high-quality farm products including eggs, pork, chicken, beef, and top-notch farm equipment such as Legacy hay feeders, hay wagons, and Geo-Star automatic livestock waterers.">
-    <meta name="keywords" content="hay feeders, hay wagons, livestock waterers, farm equipment, Legacy Mfg, Geo-Star, farm fresh products, farm serving central Indiana">
+    <meta name="description" content="Matt and Sarah Clark Farms offers fresh, high-quality farm products including eggs, pork, chicken, beef, and farm equipment like Legacy hay feeders, hay wagons, and Geo-Star livestock waterers. Serving Central Indiana.">
+    <meta name="keywords" content="hay feeders, hay wagons, livestock waterers, farm equipment, Legacy Mfg, Geo-Star, farm fresh products, Indiana farm, Mooresville farm, farm products, sustainable farming">
     <meta name="author" content="Matt and Sarah Clark">
     
     <!-- Open Graph Meta Tags for Social Media -->
     <meta property="og:title" content="Matt and Sarah Clark Farms - Quality Farm Products & Equipment">
-    <meta property="og:description" content="We provide fresh farm products and durable farm equipment like Legacy hay feeders, hay wagons, and Geo-Star livestock waterers.">
+    <meta property="og:description" content="Fresh farm products and durable farm equipment like Legacy hay feeders, hay wagons, and Geo-Star automatic livestock waterers. We serve Mooresville, IN and surrounding areas.">
     <meta property="og:image" content="farm-image.jpg"> <!-- Replace with your image URL -->
     <meta property="og:url" content="https://yourwebsite.com"> <!-- Replace with your website URL -->
     <meta property="og:type" content="website">
     
+    <!-- Additional Structured Data for Local SEO -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Farm",
+            "name": "Matt and Sarah Clark Farms",
+            "url": "https://yourwebsite.com",
+            "logo": "your-logo-url.jpg",  <!-- Add logo URL -->
+            "sameAs": "https://facebook.com/CCFarms11",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "123 Farm Road",
+                "addressLocality": "Mooresville",
+                "addressRegion": "IN",
+                "postalCode": "46158",
+                "addressCountry": "US"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-317-966-1519",
+                "contactType": "Customer Service"
+            }
+        }
+    </script>
+
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
             background-image: url('farm-background.jpg'); /* Replace with actual image URL */
             background-size: cover;
             background-position: center;
-            color: black;
+            color: #333;
         }
         header {
             background-color: #B22222; /* Dark Red */
             color: white;
-            padding: 1em;
-            font-size: 1.8em;
+            padding: 1.5em;
+            font-size: 2em;
             font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
         section {
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8); /* Light background for readability */
+            background: rgba(255, 255, 255, 0.9); /* Light background for readability */
             margin: 20px;
             border-radius: 10px;
         }
@@ -56,14 +82,19 @@
             text-align: center;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .product:hover {
+            transform: translateY(-10px);
         }
         h2 {
             color: #B22222;
+            font-size: 1.8em;
         }
         .contact-info {
             margin-top: 20px;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
         }
         .contact-info p {
@@ -71,6 +102,13 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
+        }
+        .contact-info a {
+            color: #B22222;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -80,7 +118,7 @@
     
     <section>
         <h2>About Our Farm</h2>
-        <p>At our family-run farm, we take pride in providing fresh, high-quality products from our farm to your family. In addition to farm-fresh products, we offer top-quality livestock equipment, including Legacy hay feeders, hay wagons, and Geo-Star automatic livestock waterers. Our commitment to excellence ensures you receive the best in both farm-raised foods and durable farming essentials.</p>
+        <p>We are a family-owned farm in Mooresville, IN, committed to producing high-quality, fresh farm products and durable farming equipment. From farm-fresh eggs, pork, chicken, and beef to Legacy hay feeders, hay wagons, and Geo-Star automatic livestock waterers, we offer the essentials to help your farm thrive.</p>
     </section>
     
     <section>
@@ -88,16 +126,16 @@
         <div class="product-container">
             <div class="product">
                 <h3>Farm Products</h3>
-                <p>Eggs</p>
-                <p>Pork</p>
-                <p>Chicken</p>
-                <p>Beef</p>
+                <p>Fresh Eggs</p>
+                <p>Premium Pork</p>
+                <p>Naturally Raised Chicken</p>
+                <p>Naturally Reaised Beef</p>
             </div>
             <div class="product">
                 <h3>Farm Equipment</h3>
                 <p>Legacy ShurFeed Round Bale Feeders</p>
                 <p>Legacy Mfg Feeder Wagons</p>
-                <p>Geo-Star Waterers</p>
+                <p>Geo-Star Automatic Waterers</p>
             </div>
         </div>
     </section>
@@ -106,8 +144,8 @@
         <h2>Contact Us</h2>
         <p><strong>Matt Clark</strong></p>
         <p>Owner</p>
-        <p><i class="fas fa-phone"></i> 317.966.1519</p>
-        <p><i class="fas fa-globe"></i> Mooresville, IN</p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+13179661519">317-966-1519</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Mooresville, IN</p>
         <p><i class="fab fa-facebook"></i> <a href="https://facebook.com/CCFarms11" target="_blank">Facebook.com/CCFarms11</a></p>
     </section>
 </body>
